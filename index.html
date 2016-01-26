@@ -1,1 +1,168 @@
-Testing gh pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Arch Linux</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel = "stylesheet" href = "css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class = "container-fluid">
+    <nav id = "myNav" class="navbar navbar-inverse navbar-fixed-top">
+      <div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#Arch">Arch Linux</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class = "navmem"><a href="#WhyArch">Why Arch?</a></li>
+            <li class = "navmem"><a href="#Features">Features</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <header >
+      <section id = "Arch">
+        <div class = "container">
+          <h1 class = "text-center">Arch Linux</h1>
+            <div class="row">
+                <div class="col-lg-12">
+                  <p class = "col-lg-12 col-sm-12 text-center">
+                    Arch linux is <b>" a lightweight and flexible Linux® distribution that tries to Keep It Simple."</b>
+              . It was Created By Aaron Griffin and Judd Vinet.
+                  The point of Arch linux is to be as flexible as possible, and to give freedom of choice to the user
+                based on their own personal preferences, not on the developers of the distribution. Judd Vinet has since left the Arch linux project, but Aaron Griggin continues to maintain it.</p>
+                </div>
+            </div>
+                <div class = "row">
+                  <div class="col-lg-12">
+                      <a href = "#WhyArch" type = "button" class = "btn btn-primary btn-lg"> Learn More: </a>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <section id = "WhyArch">
+          <div class = "row col-lg-12 col-sm-12 col-md-6">
+              <h1 class = "text-center">Why Arch?</h1>
+              <p> There are many reasons to chose arch linux. Many people choose to use arch to breath life into an old machine, as it comes with no heavy desktop environment on installation, and doesn't utilize any unnecessary
+              applications. Therefore, Arch has very low system requirements. An additional and very much related reason would simply be the amount of customization that can be done. With arch, you can literally change everything
+              about the os. You can change your desktop environment. You can change your bootlogo.You can even decide what kind of bootloader you'd like to use. This makes it ideal for those who simply want a customizable, flexible
+              linux experience, something which distributions like ubuntu simply don't give to the fullest extent. </p>
+          </div>
+    </section>
+    <section id = "Features">
+        <div class = "row">
+          <h1 class = "text-center">Features</h1>
+        </div>
+        <div class = "row" style="padding-top: 100px">
+            <div class="col-lg-4 col-sm-6">
+              <h3 class = "text-center">Package Manager</h3>
+              <p class = "text-center"> One of Arch linux's core features is its package manager. To learn more, click the button below. </p>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal1">Learn More</button>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <h3 class = "text-center">Installation</h3>
+              <p class = "text-center"> Arch has a unique installation process. Click below to learn more. </p>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal2">Learn More</button>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <h3 class = "text-center">Customizability</h3>
+              <p class = "text-center"> Arch linux has a very convenient and flexible build system. See below to learn more. </p>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal3">Learn More</button>
+            </div>
+          </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+
+    <!--modals-->
+
+
+        <div class="modal fade" id="modal1" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Package Manager</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Arch linux has an advanced package manager. Called pacman, short for package manager, pacman is flexible, well optimized, and extremely versatile, with options to install packages from
+                  online repos, or from source like any modern package manager. In combination with the arch build system, which makes building packages easy, installing packages with arch is quite convenient, though
+                configuring them may be a different story. </p>
+                <div class = "col-lg-12">
+                      <img src = "img/pacman.jpg"/>
+                </div>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal2" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Installation</h4>
+                </div>
+                <div class="modal-body">
+                  <p>One of the coolest things about arch is that you have to install it yourself. There is no automated installer process. When you boot the iso, it is an arch linux image with standard linux tools, that
+                  you can use to install the os. Click the button below to learn how to install arch. </p>
+                  <a href = "https://wiki.archlinux.org/index.php/Beginners%27_guide" type = "button">Click here </a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal3" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Customizability</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Arch Linux is known for its customizability. You can customize nearly every aspect of the OS. You can choose your desktop environment, your bootlogo, and you can choose what type of kernel
+                  and bootloader you'd like to use. If you don't like linux, there's always ArchBSD, a FreeBSD implementation with Arch's features.</p>
+                  <div class="row">
+                      <div class = "col-lg-4">
+                        <img src="img/gnome.png" alt="" />
+                      </div>
+                      <div class = "col-lg-4">
+                        <img src="img/kde.png" alt="" />
+                      </div>
+                      <div class = "col-lg-4">
+                        <img src="img/xfce.png" style="padding-left: 10px" alt="" />
+                      </div>
+
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </body>
+</div>
+</html>

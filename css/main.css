@@ -1,0 +1,69 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+ #Arch{
+  background-image: url("../img/archbackground.png");
+  padding-bottom: 600px;
+  color: white;
+  font-size: 200%;
+}
+
+#Arch h1 {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+#Arch p {
+  padding-left: 50px;
+  padding-right: 100px;
+}
+#Arch a {
+  position: absolute;
+  left: 40%;
+}
+#WhyArch  {
+ color: white;
+ background-image: url("../img/archbackground2.png");
+ padding-bottom:  800px;
+}
+#WhyArch p {
+  font-size: 200%;
+  padding: 30px;
+  background-size: cover;
+}
+#Features{
+  padding-bottom: 600px;
+  background-color: #110E0E;
+  color: white;
+}
+#Features p {
+  padding-top: 50px;
+  font-size: 150%;
+}
+#Features button {
+  position: absolute;
+  left: 40%;
+
+}
+
+.modal-body {
+  font-size: 200%;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background: #004c80;
+  font-family: 'Oswald', sans-serif;
+}
+.navbar a{
+  color: #fff;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+/* Add a gray background color and some padding to the footer */
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+p {
+  font-family: 'Oswald', sans-serif;
+}
